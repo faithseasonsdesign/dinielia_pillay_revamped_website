@@ -1,0 +1,32 @@
+
+
+
+.education-component-main-heading{
+    font-size: 2.4rem;
+    color: #3E3C3A;
+    font-weight: 900;
+}
+
+.card-heading{
+    color:#3E3C3A;
+    font-weight: 770;
+}
+
+
+@media screen and (max-width:767px){
+    .education-component-main-heading{
+        font-size: 1.6rem;
+    }
+    .education-component-card-text{
+        font-size: 0.8rem;
+    }
+    .about-component-read-more-btn{
+        font-size: 0.65rem;
+    }
+    .education-heading{
+        font-size: 1rem;
+    }
+    .about-list{
+        font-size: 0.8rem;
+    }
+}

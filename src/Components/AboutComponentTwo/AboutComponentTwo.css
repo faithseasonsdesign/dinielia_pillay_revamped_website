@@ -1,0 +1,30 @@
+
+
+.about-component-parent-wrapper{
+    background-color: #d9d9d98c;
+}
+
+.about-component-main-heading{
+    font-size: 2.4rem;
+    color: #3E3C3A;
+    font-weight: 900;
+}
+
+.about-component-read-more-btn{
+    border:solid 2px orange;
+    border-radius: 2pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+@media screen and (max-width:767px){
+    .about-component-main-heading{
+        font-size: 1.6rem;
+    }
+    .about-component-description{
+        font-size: 0.68rem;
+    }
+    .about-component-read-more-btn{
+        font-size: 0.65rem;
+    }
+}

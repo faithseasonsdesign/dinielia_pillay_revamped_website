@@ -1,0 +1,18 @@
+.experience-component-heading{
+    font-size: 2.4rem;
+    color: #3E3C3A;
+    font-weight: 900;
+}
+
+
+@media screen and (max-width:767px){
+    .experience-component-heading{
+        font-size: 1.6rem;
+    }
+    .testimonial-text{
+        font-size:1rem;
+    }
+    .experience-text{
+        font-size: 1rem;
+    }
+}

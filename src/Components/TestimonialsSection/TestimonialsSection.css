@@ -1,0 +1,22 @@
+
+
+.testimonial-text{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.testimonials-section-main-heading{
+    font-size: 2.4rem;
+    color: #3E3C3A;
+    font-weight: 900;
+}
+
+
+@media screen and (max-width:767px){
+    .testimonials-section-main-heading{
+        font-size: 1.6rem;
+    }
+    .testimonial-text{
+        font-size:1rem;
+    }
+}

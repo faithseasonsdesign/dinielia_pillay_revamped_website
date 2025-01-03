@@ -1,0 +1,123 @@
+
+
+.tools-component-main-heading{
+    font-size: 2.4rem;
+    color: #3E3C3A;
+    font-weight: 900;
+}
+
+.tools-component-navigation-steps{
+    column-gap: 4px !important;
+}
+
+.tools-component-icons-child{
+    column-gap: 15pt;
+}
+
+
+/* Parent wrapper */
+.tools-component-parent-wrapper {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Content Wrapper */
+.tools-component-content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Heading */
+.tools-component-main-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.tools-component-main-heading{
+    font-size: 2.4rem;
+    color: #3E3C3A;
+    font-weight: 900;
+}
+
+@media screen and (max-width:767px){
+
+    .tools-component-main-heading{
+        font-size: 1.6rem;
+    }
+
+    /* Tabs Navigation */
+    .nav-tabs {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .nav-tabs .nav-item {
+        margin: 0 10px;
+    }
+
+    .nav-tabs .nav-link {
+        background: none;
+        border: none;
+        font-size: 1rem;
+        padding: 10px 15px;
+        cursor: pointer;
+        color: #555;
+        transition: all 0.3s ease;
+    }
+
+    .nav-tabs .nav-link:hover {
+        color: #007bff;
+    }
+    
+    .nav-tabs .nav-link.active {
+        color: #007bff;
+        border-bottom: 2px solid #007bff;
+        font-weight: bold;
+    }
+    
+    /* Tools Grid */
+ 
+    
+    /* Tools Grid */
+    .tools-component-icons-child {
+        display: grid !important;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 20px;
+        justify-items: center;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    
+    /* Individual Tool Item */
+    .tools-component-icons-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .tools-component-icons img {
+        height: 60px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+    
+    .tools-component-icons label {
+        font-size: 0.9rem;
+        color: #333;
+    }
+    
+    /* Media Query for Small Screens */
+    @media (max-width: 480px) {
+        .tools-component-icons img {
+            height: 50px;
+        }
+    }
+    
+}

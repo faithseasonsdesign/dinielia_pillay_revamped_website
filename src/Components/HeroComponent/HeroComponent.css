@@ -1,0 +1,64 @@
+
+
+
+.hero-section-component-parent-wrapper{
+    background-color: #d9d9d943;
+}
+.hero-section-main-heading,.hero-section-sub-heading,.hero-section-main-description{
+    color: #3E3C3A;
+}
+.hero-section-main-heading{
+    font-weight: 1000;
+    font-size: 3.1rem;
+}
+.hero-section-sub-heading{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.hero-section-main-description{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 15pt;
+}
+
+.hero-section-contact-btn{
+    background-color: #FA9D1E;
+    border-radius: 2pt;
+    font-size: 1rem;
+}
+
+.hero-section-contact-btn:hover{
+    background-color: orange;
+}
+
+@media screen and (min-width:767px) and (max-width:991px){
+    .hero-section-sub-heading{
+        font-size: 0.9rem;
+    }
+    .hero-section-main-heading{
+        font-size: 2.3rem;
+    }
+    .hero-section-main-description{
+        font-size: 0.6rem;
+        line-height: 0.7rem;
+    }
+    .hero-section-contact-btn{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    .hero-section-main-heading{
+        font-size: 1.8rem;
+    }
+    .hero-section-sub-heading{
+        font-size: 0.9rem;
+    }
+    .hero-section-main-description{
+        font-size: 0.85rem !important;
+        line-height: 1rem;
+    }
+    .hero-section-contact-btn{
+        font-size: 0.8rem;
+    }
+}

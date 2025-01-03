@@ -1,0 +1,28 @@
+
+
+.expertise-component-main-heading{
+    font-size: 2.4rem;
+    color: #3E3C3A;
+    font-weight: 900;
+}
+
+.card-heading{
+    color:#3E3C3A;
+    font-weight: 770;
+}
+
+@media screen and (max-width:767px){
+    .expertise-component-main-heading{
+        font-size: 1.6rem;
+    }
+    .skill-heading{
+        font-size:1rem;
+    }
+}
+
+@media (min-width: 768px) { /* For medium screens (md) and above */
+    .custom-mx-md-not-auto {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
